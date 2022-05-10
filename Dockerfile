@@ -8,11 +8,10 @@ ARG JQ_VERSION=1.6
 
 FROM docker.io/library/golang:1.16 as builder
 
-RUN apt-get update && apt-get --no-install-recommends install -y \
+RUN apt-get install apt-transport-https && apt-get update && apt-get --no-install-recommends install -y \
     git \
     make \
     apt-utils \
-    apt-transport-https \
     ca-certificates \
     wget \
     gcc \
