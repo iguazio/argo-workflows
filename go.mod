@@ -34,7 +34,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/itchyny/gojq v0.12.11
 	github.com/klauspost/pgzip v1.2.5
-	github.com/minio/minio-go/v7 v7.0.48
+	github.com/minio/minio-go/v7 v7.0.49
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
 	github.com/prometheus/client_model v0.3.0
@@ -44,7 +44,7 @@ require (
 	github.com/sirupsen/logrus v1.9.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/soheilhy/cmux v0.1.5
-	github.com/spf13/cobra v1.5.0
+	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0
 	github.com/stretchr/testify v1.8.1
@@ -97,7 +97,7 @@ require (
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/awalterschulze/gographviz v0.0.0-20200901124122-0eecad45bd71 // indirect
-	github.com/aws/aws-sdk-go v1.44.105 // indirect
+	github.com/aws/aws-sdk-go v1.44.205 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.16.2 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.15.3 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.11.2 // indirect
@@ -123,7 +123,7 @@ require (
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker v20.10.17+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
-	github.com/dustin/go-humanize v1.0.0 // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
@@ -149,7 +149,7 @@ require (
 	github.com/huandu/xstrings v1.3.3 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/imkira/go-interpol v1.1.0 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/itchyny/timefmt-go v0.1.5 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/jcmturner/gofork v1.0.0 // indirect
@@ -157,8 +157,8 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.15.9 // indirect
-	github.com/klauspost/cpuid/v2 v2.1.0 // indirect
+	github.com/klauspost/compress v1.15.15 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/lib/pq v1.10.4 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
@@ -205,7 +205,7 @@ require (
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.6.0 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/term v0.5.0
 	golang.org/x/text v0.7.0 // indirect
@@ -227,3 +227,5 @@ require (
 )
 
 replace github.com/go-git/go-git/v5 => github.com/argoproj-labs/go-git/v5 v5.4.6
+
+replace github.com/argoproj/pkg => github.com/iguazio/argo-pkg v0.13.3-0.20230222104725-0584c24e6f34
